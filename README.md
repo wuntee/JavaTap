@@ -22,8 +22,7 @@ Usage
 	
 Sample Output
 -------------
-    $ java -jar JavaTap.jar -c ../config/encryption.conf -l '-cp JavaTap.jar com.wuntee.ct.test.AesEncrypt
-Decrypt'
+    $ java -jar JavaTap.jar -c ../config/encryption.conf -l '-cp JavaTap.jar com.wuntee.ct.test.AesEncryptDecrypt'
     Entry: javax.crypto.spec.SecretKeySpec.<init>(byte[], java.lang.String)
      -arg[0]: [-65, -45, -15, -41, -68, -33, -124, -44, 106, -115, 92, 107, -118, 85, 97, 35]
      -arg[1]: "AES"
